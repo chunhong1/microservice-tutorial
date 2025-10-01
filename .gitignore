@@ -22,3 +22,39 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+.idea
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+
+# Optional: Specific files you don't want to track
+# config.json
+# temp/
+
+.angular
+node_modules/
