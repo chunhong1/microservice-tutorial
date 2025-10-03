@@ -16,7 +16,7 @@ import java.util.List;
 public class SecurityConfig
 {
     private final String[] freeResourceUrls = {"/swagger-ui.html", "/swagger-ui/**",
-            "/api-docs/**", "/v3/api-docs/**", "/swagger-resources/**", "/aggregate/**"};
+            "/api-docs/**", "/v3/api-docs/**", "/swagger-resources/**", "/aggregate/**", "/actuator/**"};
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
